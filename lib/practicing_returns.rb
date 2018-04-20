@@ -10,5 +10,10 @@ def hello(array)
   collection
 end
 
+<<<<<<< HEAD
 
 hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
+=======
+binding.pry
+hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
+>>>>>>> aecfedc744835a67b84e76010071026265e5fd59
